@@ -22,9 +22,11 @@ class App extends Component {
   render() {
     return (
       <div className="App" onClick={e => this.playMusic()}>
-        <iframe width="1366" height="657"
-                src="https://www.youtube.com/embed/o3aojIlLKcM?autoplay=1&mute=1&controls=0&showinfo=0&disablekb=1&modestbranding=1&autohide=1"
-                frameBorder="0"/>
+        <div className="video-wrapper">
+          <iframe width="1366" height="657"
+                  src="https://www.youtube.com/embed/o3aojIlLKcM?autoplay=1&mute=1&controls=0&showinfo=0&disablekb=1&modestbranding=1&autohide=1"
+                  frameBorder="0"/>
+        </div>
         <div className="background"></div>
         <div className="content">
           <header className="App-header">
@@ -32,7 +34,7 @@ class App extends Component {
             <div>
               <embed src={logo} className="App-logo" style={{height: '17em'}}/>
             </div>
-            <div style={{marginTop:'1em'}}>
+            <div style={{marginTop: '1em'}}>
               <div id="start">Klik biar dia ngomong "Ashiap".</div>
               <div id="times" style={{display: 'none'}}>Atta di klik: {this.state.timesClicked} kali</div>
             </div>
