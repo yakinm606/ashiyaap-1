@@ -1,6 +1,9 @@
 import React, {Component} from "react";
 import logo               from "./img/yes.svg";
 import suara              from "./img/ashiap.mp3";
+import About              from './component/About';
+import Background         from './component/Background';
+import Video              from './component/Video';
 import "./App.css";
 
 class App extends Component {
@@ -22,15 +25,11 @@ class App extends Component {
   render() {
     return (
       <div className="App" onClick={e => this.playMusic()}>
-        <div className="video-wrapper">
-          <iframe width="1366" height="657"
-                  src="https://www.youtube.com/embed/o3aojIlLKcM?autoplay=1&mute=1&controls=0&showinfo=0&disablekb=1&modestbranding=1&autohide=1"
-                  frameBorder="0"/>
-        </div>
-        <div className="background"></div>
+        <Video/>
+        <Background/>
         <div className="content">
           <header className="App-header">
-            <h1 style={{margin: '0'}}>ASHIAAAAPPP.exe</h1>
+            <h1 style={{margin: '0'}}>ASHIYAAP.exe</h1>
             <div>
               <embed src={logo} className="App-logo" style={{height: '17em'}}/>
             </div>
@@ -39,10 +38,7 @@ class App extends Component {
               <div id="times" style={{display: 'none'}}>Atta di klik: {this.state.timesClicked} kali</div>
             </div>
           </header>
-          <div className="social-media">
-            Created by MirukuSheki <br/>
-            Github: <a href="https://github.com/mirukusheki" target="_blank">mirukusheki</a>
-          </div>
+          <About/>
         </div>
       </div>
     );

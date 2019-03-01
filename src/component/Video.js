@@ -1,0 +1,13 @@
+import React from 'react';
+
+const Video = () => {
+  let videos = 'https://www.youtube.com/embed/o3aojIlLKcM' +
+    '?autoplay=1&mute=1&loop=1&controls=0&showinfo=0&disablekb=1&modestbranding=1&autohide=1';
+  return (
+    <div className="video-wrapper">
+      <iframe width="1366" height="657" src={videos} frameBorder="0"/>
+    </div>
+  );
+};
+
+export default Video;
