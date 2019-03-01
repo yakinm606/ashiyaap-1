@@ -34,7 +34,7 @@ class App extends Component {
               <embed src={logo} className="App-logo" style={{height: '17em'}}/>
             </div>
             <div style={{marginTop: '1em'}}>
-              <div id="start">Klik biar dia ngomong "Ashiap".</div>
+              <div id="start">Klik biar Atta ngomong "Ashiap".</div>
               <div id="times" style={{display: 'none'}}>Atta di klik: {this.state.timesClicked} kali</div>
             </div>
           </header>
