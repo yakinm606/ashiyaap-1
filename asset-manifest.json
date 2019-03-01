@@ -1,15 +1,15 @@
 {
-  "main.css": "/ashiyaap/static/css/main.942c4f53.chunk.css",
-  "main.js": "/ashiyaap/static/js/main.46b0aff6.chunk.js",
-  "main.js.map": "/ashiyaap/static/js/main.46b0aff6.chunk.js.map",
+  "main.css": "/ashiyaap/static/css/main.9d94c241.chunk.css",
+  "main.js": "/ashiyaap/static/js/main.df9da2bf.chunk.js",
+  "main.js.map": "/ashiyaap/static/js/main.df9da2bf.chunk.js.map",
   "runtime~main.js": "/ashiyaap/static/js/runtime~main.94269f94.js",
   "runtime~main.js.map": "/ashiyaap/static/js/runtime~main.94269f94.js.map",
   "static/js/2.e2a03234.chunk.js": "/ashiyaap/static/js/2.e2a03234.chunk.js",
   "static/js/2.e2a03234.chunk.js.map": "/ashiyaap/static/js/2.e2a03234.chunk.js.map",
   "index.html": "/ashiyaap/index.html",
-  "precache-manifest.34342a25eedbbb623dee65b522049d57.js": "/ashiyaap/precache-manifest.34342a25eedbbb623dee65b522049d57.js",
+  "precache-manifest.b49e977f19673092d0aa07f00b6f3305.js": "/ashiyaap/precache-manifest.b49e977f19673092d0aa07f00b6f3305.js",
   "service-worker.js": "/ashiyaap/service-worker.js",
-  "static/css/main.942c4f53.chunk.css.map": "/ashiyaap/static/css/main.942c4f53.chunk.css.map",
+  "static/css/main.9d94c241.chunk.css.map": "/ashiyaap/static/css/main.9d94c241.chunk.css.map",
   "static/media/ashiap.mp3": "/ashiyaap/static/media/ashiap.b3b650b7.mp3",
   "static/media/yes.svg": "/ashiyaap/static/media/yes.d7cd8049.svg"
 }
