@@ -3,6 +3,7 @@ import logo               from "./img/yes.svg";
 import suara              from "./img/ashiap.mp3";
 import About              from './component/About';
 import Background         from './component/Background';
+import Foreground         from './component/Foreground';
 import Video              from './component/Video';
 import "./App.css";
 
@@ -25,6 +26,7 @@ class App extends Component {
   render() {
     return (
       <div className="App" onClick={e => this.playMusic()}>
+        <Foreground/>
         <Video/>
         <Background/>
         <div className="content">
