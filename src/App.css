@@ -41,11 +41,12 @@ body{
   opacity: 0;
   background: lightyellow;
   position: absolute;
-  bottom: 0;
+  top: 0;
   right: 0;
   width: 20em;
   padding: 1em 1em 2em;
   transition: .5s;
+  z-index: 2;
 }
 
 .social-media:hover {
@@ -64,22 +65,21 @@ body{
   position: absolute;
   top: 0;
   width: 100%;
-  height: 116%;
+  height: 118.5%;
 }
 
 .foreground {
   opacity: 0;
-  background-color: #000;
   position: absolute;
   top: 0;
   width: 100%;
-  height: 116%;
+  height: 118.5%;
   z-index: 1;
 }
 
 .video-wrapper {
   position: relative;
-  padding-bottom: 54.5%; /* 16:9 */
+  padding-bottom: 56%; /* 16:9 */
   padding-top: 25px;
 }
 
