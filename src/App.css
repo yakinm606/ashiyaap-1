@@ -91,8 +91,15 @@ body{
   height: 100%;
 }
 
+.version{
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 @media screen and (max-width: 1055px){
-  .video-wrapper iframe {
+  .video-wrapper {
     display: none;
   }
 }
