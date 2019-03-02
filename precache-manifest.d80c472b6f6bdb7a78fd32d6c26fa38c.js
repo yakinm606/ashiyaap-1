@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/ashiyaap/static/js/runtime~main.94269f94.js"
   },
   {
-    "revision": "2ff127ee27edf4adc339",
-    "url": "/ashiyaap/static/js/main.2ff127ee.chunk.js"
+    "revision": "4b2c9c433e1dcbb64315",
+    "url": "/ashiyaap/static/js/main.4b2c9c43.chunk.js"
   },
   {
     "revision": "e2a032349bc2797c4db5",
     "url": "/ashiyaap/static/js/2.e2a03234.chunk.js"
   },
   {
-    "revision": "2ff127ee27edf4adc339",
-    "url": "/ashiyaap/static/css/main.6fc31558.chunk.css"
+    "revision": "4b2c9c433e1dcbb64315",
+    "url": "/ashiyaap/static/css/main.0bed73cf.chunk.css"
   },
   {
-    "revision": "d1961e3969a99638e0e1dc70a6c73584",
+    "revision": "c88e2876641adfffe79915a648d5b8bf",
     "url": "/ashiyaap/index.html"
   }
 ];
