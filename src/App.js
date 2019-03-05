@@ -56,7 +56,7 @@ class App extends Component {
           </header>
           <About/>
         </div>
-        <div className="version">- Version 1.0.12</div>
+        <div className="version">- Version 1.0.25</div>
       </div>
     );
   }
