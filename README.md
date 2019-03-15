@@ -3,7 +3,7 @@ Created by: Miruku Sheki
 
 <hr>
 
-ASHIAAAAPPP.exe adalah sebuah project iseng buatan Miruku Sheki menggunakan bahasa program ReactJS. 
+ASHIAAAAPPP.exe adalah sebuah project iseng buatan Miruku Sheki yang menggunakan Framework ReactJS. 
 
 Ketika kalian mengakses website ini dan mengklik sembarang di laman ini, maka audio Atta Hallilintar yang mengatakan "Ashiap..." akan diputar.
 Tak hanya itu, web ini juga menghitung seberapa banyak kamu mengklik di laman ini.
