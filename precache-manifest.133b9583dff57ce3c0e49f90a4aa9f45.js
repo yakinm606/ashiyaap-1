@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/ashiyaap/static/css/main.7c1e106b.chunk.css"
   },
   {
-    "revision": "834dff6760d5e676439c2b6b381d6c62",
+    "revision": "14e6b7c6f4d5e967878bfb10aedbe7ba",
     "url": "/ashiyaap/index.html"
   }
 ];
