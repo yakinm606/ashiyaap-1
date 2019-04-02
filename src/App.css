@@ -1,4 +1,4 @@
-body{
+body {
   font-family: "Comic Sans MS";
   height: 100%;
 }
@@ -45,7 +45,7 @@ body{
   right: 0;
   width: 20em;
   padding: 1em 1em 2em;
-  transition: .5s;
+  transition: 0.5s;
   z-index: 2;
 }
 
@@ -56,7 +56,7 @@ body{
 .content {
   position: absolute;
   top: 0;
-  width: 100%
+  width: 100%;
 }
 
 .background {
@@ -80,20 +80,20 @@ body{
 
 @media only screen and (max-width: 600px) {
   iframe {
-    top: -790px;
+    top: -590px;
     left: -440px;
     width: 300%;
     height: 300%;
   }
-} 
+}
 @media only screen and (min-width: 600px) {
   iframe {
-    top: -530px;
-    left: -370px;
-    width: 240%;
-    height: 240%;
+    top: -590px;
+    left: -440px;
+    width: 300%;
+    height: 300%;
   }
-} 
+}
 @media only screen and (min-width: 768px) {
   iframe {
     top: -300px;
@@ -101,25 +101,25 @@ body{
     width: 180%;
     height: 180%;
   }
-} 
+}
 @media only screen and (min-width: 992px) {
   iframe {
     top: -230px;
     left: -190px;
     width: 150%;
-    height : 150%;
+    height: 150%;
   }
-} 
+}
 @media only screen and (min-width: 1200px) {
   iframe {
     top: -230px;
-    left: -490px;
+    left: -340px;
     width: 150%;
-    height : 150%;
+    height: 150%;
   }
 }
 
-iframe{
+iframe {
   overflow: hidden;
   /* top: -230px; */
   /* left: -340px; */
@@ -132,7 +132,7 @@ iframe{
   position: static;
 }
 
-.version{
+.version {
   color: white;
   position: absolute;
   bottom: 0;
